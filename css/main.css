@@ -10,25 +10,33 @@ of properties that will be changed with the code below */
   to the outside font linked to google fonts */
   color:#79756f;
   /* changes title color to specified color */
-  transition:all 1s ease;
-  /* adds a transition, all specifies that when anything happens to the title it applies
-  the transition effects which in this case is 'hover' seen below. '1s' specifies the
-  duration of the transition. 'ease' will start slow then arc to end slow, 'linear'
-  will make the transition uniform */
 }
 
-h1:hover {
-  /* gives h1 (header1) a hover state */
+ul{
+  list-style-type: none;
+  /* specifies the bullets of the list to be lower-alpha(alphabet), lower-roman(roman numerals),
+  decimal(decimals), circle(circles), or none(no bullets)*/
+  padding:0;
+  /* padding aligns a list to the left and getd rid of indentation */
+
+ol{
+  list-style-type: lower-roman;
+}
+
+.quotes{
+  font-size: 1.5rem;
+}
+
+  a:hover{
+    color: orange;
+}
+
+span{
+  font-style: bolder;
+  color: red;
   font-size: 3rem;
-  /* changes the h1 header to a larger size specified */
-
-a:hover{
-/* sets a hover state to 'a' anchor link */
-  color: yellow;
-  /* sets the link to yellow when the mouse hovers over */
 }
 
-b{
-  font-style: normal;
-  color:white;
+a{
+  color: red;
 }
