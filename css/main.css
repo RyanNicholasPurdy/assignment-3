@@ -18,6 +18,17 @@ ul{
   decimal(decimals), circle(circles), or none(no bullets)*/
   padding:0;
   /* padding aligns a list to the left and getd rid of indentation */
+  color:red;
+}
+
+a:hover{
+  color: black;
+}
+
+.name{
+  text-align:right;
+  color:#79756f;
+}
 
 ol{
   list-style-type: lower-roman;
@@ -27,16 +38,17 @@ ol{
   font-size: 1.5rem;
 }
 
-  a:hover{
-    color: orange;
-}
-
 span{
   font-style: bolder;
-  color: red;
-  font-size: 3rem;
+  color: black;
+  font-size: 1.5rem;
 }
 
 a{
   color: red;
+}
+
+dt{
+  font-weight: bold;
+  color: black;
 }
