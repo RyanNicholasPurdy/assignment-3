@@ -1,0 +1,34 @@
+html {
+  background-color:#dbd6cf;
+  /* changes background colour of the specified tag to a specified colour */
+}
+h1, h2, h3{
+/* specifies the element, by addign the comma ',h2' your'e adding h2 to the list
+of properties that will be changed with the code below */
+  font-family: 'Chewy', sans-serif;
+  /* typing the specific 'font name' in from the hmtl link will set the text
+  to the outside font linked to google fonts */
+  color:#79756f;
+  /* changes title color to specified color */
+  transition:all 1s ease;
+  /* adds a transition, all specifies that when anything happens to the title it applies
+  the transition effects which in this case is 'hover' seen below. '1s' specifies the
+  duration of the transition. 'ease' will start slow then arc to end slow, 'linear'
+  will make the transition uniform */
+}
+
+h1:hover {
+  /* gives h1 (header1) a hover state */
+  font-size: 3rem;
+  /* changes the h1 header to a larger size specified */
+
+a:hover{
+/* sets a hover state to 'a' anchor link */
+  color: yellow;
+  /* sets the link to yellow when the mouse hovers over */
+}
+
+b{
+  font-style: normal;
+  color:white;
+}
